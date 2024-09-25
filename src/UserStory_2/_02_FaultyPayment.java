@@ -14,7 +14,7 @@ public class _02_FaultyPayment extends BaseDriver {
     public void Test1(){
 
         driver.get("https://shopdemo.fatfreeshop.com/?");
-        MyFunc.Bekle(2);
+        MyFunc.Bekle(3);
 
 
         WebElement sepet= driver.findElement(By.cssSelector("[onclick='return EJEJC_lc(this);'][class='navbar-item cart']"));
