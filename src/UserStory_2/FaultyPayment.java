@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class _02_FaultyPayment extends BaseDriver {
+public class FaultyPayment extends BaseDriver {
 
     @Test
     public void Test1(){
