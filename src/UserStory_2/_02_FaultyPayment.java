@@ -58,6 +58,7 @@ public class _02_FaultyPayment extends BaseDriver {
         Assert.assertTrue("Geçerli bir mail adresi veya geçerli fatura bilgileri giriniz",
                 mesajText.contains("Invalid Email") || mesajText.contains("Invalid Billing"));
 
+        System.out.println("son deneme");
 
         BekleKapat();
 
