@@ -15,7 +15,7 @@ import java.time.Duration;
 
 public class InvalidPromotionalCode extends BaseDriver {
     @Test
-    public void Test1(){
+    public void Test1() {
 
         String promoCode = "12121212";
 
@@ -35,7 +35,7 @@ public class InvalidPromotionalCode extends BaseDriver {
         MyFunc.scrollElement(addToCartButton);
         wait.until(ExpectedConditions.elementToBeClickable(addToCartButton));
         MyFunc.javaScriptClick(addToCartButton);
-
+        MyFunc.Bekle(2);
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@class='EJIframeV3 EJOverlayV3']")));
         WebElement iframe = driver.findElement(By.xpath("//iframe[@class='EJIframeV3 EJOverlayV3']"));
