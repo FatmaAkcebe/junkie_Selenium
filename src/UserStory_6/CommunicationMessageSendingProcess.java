@@ -1,4 +1,4 @@
-package US06;
+package UserStory_6;
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
 import org.junit.Test;
